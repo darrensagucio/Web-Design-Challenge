@@ -55,6 +55,39 @@
     float: right;
   }
 
+/* Edit Fonts */
+
+.display-4 {
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Georgia", serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Visualize Webpage  */
+
+#visual-image {
+    width: 400px;
+    height: 250px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.imagesummary {
+  margin-top: 20px;
+}
+
 @media (max-width: 1200px){
   
   .jsummary {
@@ -129,6 +162,11 @@
     margin-top: 0px;
     margin-left: 0px; 
   }
+  
+  #visual-image {
+    width: 350px;
+    height: 200px;
+  } 
   
 }
 
