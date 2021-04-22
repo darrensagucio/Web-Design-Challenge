@@ -88,6 +88,12 @@
   margin-top: 20px;
 }
 
+/* Data Webpage  */
+
+.table-responsive {
+  overflow-x: auto !important;
+}
+
 @media (max-width: 1200px){
   
   .jsummary {
