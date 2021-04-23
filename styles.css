@@ -94,6 +94,37 @@
   overflow-x: auto !important;
 }
 
+/* Camparison Webpage  */
+
+#commaxtemppic,
+#comhumiditypic,
+#comcloudinesspic,
+#comwindpic {
+  height: 250px;
+  width: 350px;
+  /* margin: 0 auto; */
+  /* margin-left: 2%;  */
+}
+
+.comparisoncontainer {
+  padding-top: 23px;
+}
+
+#commaxtemppic,
+#comcloudinesspic {
+  margin-left: 20%;
+}
+
+#commaxtemppic,
+#comhumiditypic {
+  margin-top: 7%;
+}
+
+#comcloudinesspic,
+#comwindpic {
+  margin-top: 15%;
+}
+
 @media (max-width: 1200px){
   
   .jsummary {
@@ -121,6 +152,18 @@
   #vwindlanding {
     margin-top: 0px;
     margin-left: 0px; 
+  }
+
+  /* Camparison Webpage  */
+  
+  #commaxtemppic,
+  #comcloudinesspic {
+  margin-left: 0%;
+  }
+  
+  #commaxtemppic,
+  #comhumiditypic {
+  margin-top: 15%;
   }
 
 }
@@ -179,6 +222,18 @@
   .datasentence{
     font-size: 12px;
   }
+
+  .comparisontilte {
+    font-size: 27px
+  }
+  
+  #commaxtemppic,
+  #comhumiditypic,
+  #comcloudinesspic,
+  #comwindpic {
+   margin-left: 10%;
+  }
+  
 }
 
 /* .clearfix::after{
