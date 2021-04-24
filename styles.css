@@ -299,6 +299,34 @@
    margin-left: 10%;
   }
 
+  .commaxtemptitle {
+    position: absolute;
+    top: 30px;
+    right: -200px; 
+    left: 125px; 
+  }
+  
+  .comhumiditytitle {
+    position: absolute;
+    top: 30px;
+    right: -200px; 
+    left: 169px; 
+  }
+  
+  .comcloudinesstitle {
+    position: absolute;
+    top: 30px; 
+    right: -200px; 
+    left: 160px;
+  }
+  
+  .comwindtitle {
+    position: absolute;
+    top: 30px;
+    right: -200px; 
+    left: 163px;
+  }
+
 }
 
 /* .clearfix::after{
