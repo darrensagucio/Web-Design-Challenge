@@ -38,44 +38,54 @@
         </div>
     </nav>
     
-    <main class="container comparisoncontainer">
-        <section id="comparisonimages">
-            <div class="jumbotron jcomparison">
-                <h1 class="display-4 comparisontilte">Comparison: Latitude vs. X </h1>
-                <hr class="my-4">
-                    <div class="row">
-                        <article class="analysissentence">
-                            <p>The following table includes all of the data used for
-                               plotting during this project.
-                            </p>
-                        </article>
-                        <div class="col-xl-6 col-md-6 col-sm">
-                            <div class="commaxtemptitle">vs. Max Temperature</div>
-                            <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualmaxtemp.html"> 
-                                <img id="commaxtemppic" src="assets/Fig1.png" alt="MaxTemp Picture"> 
-                            </a> 
-                        </div>
-                        <div class="col-xl-6 col-md-12 col-sm-12">
-                            <div class="comhumiditytitle">vs. Humidity</div>
-                            <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualhumidity.html">
-                            <img id="comhumiditypic" src="assets/Fig2.png" alt="Humidity Picture">
-                            </a>
-                        </div>
-                        <div class="col-xl-6 col-md-12 col-sm">
-                            <div class="comcloudinesstitle">vs. Cloudiness</div>
-                            <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualcloudiness.html"> 
-                            <img id="comcloudinesspic" src="assets/Fig3.png" alt="Cloudiness Picture">
-                            </a>
-                        </div>
-                        <div class="col-xl-6 col-md-12 col-sm-12">
-                            <div class="comwindtitle">vs. Windspeed</div>
-                            <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualwindspeed.html">
-                            <img id="comwindpic" src="assets/Fig4.png" alt="Windspeed Picture">
-                            </a>
+    <main class="container">
+        <div class = "row">
+            <section id="summary">
+                <div class="jumbotron jsummary">
+                    <h1 class="display-4">Windspeed</h1>
+                    <hr class="my-4">
+                    <section id="visual-analysis">
+                        <img id="visual-image" src="assets/Fig4.png" alt="Visual Picture" class= "center">
+                            <article class="post imagesummary">
+                                <p>The purpose of this project was to analyze how weather changees
+                                    as the you get closer to the equator. To accomplish this analysis, 
+                                    we first pulled data from the OpenWeatherMap API to assemble a 
+                                    dataset on over 500 cities. 
+                                </p>
+                            </article>
+                    </section>
+                </div>
+            </section>
+
+                <aside id="visualizations">
+                    <div class="jumbotron jvisual">
+                        <h1 class="display-4">Visualizations</h1>
+                        <hr class="my-4">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-3 col-sm-3 col-3">
+                                <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualmaxtemp.html"> 
+                                <img id="vmaxtemplanding" src="assets/Fig1.png" alt="MaxTemp Picture"> 
+                                </a>
+                            </div>
+                            <div class="col-xl-6 col-md-3 col-sm-3 col-3">
+                                <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualhumidity.html">
+                                <img id="vhumiditylanding" src="assets/Fig2.png" alt="Humidity Picture">
+                                </a>
+                            </div>
+                            <div class="col-xl-6 col-md-3 col-sm-3 col-3">
+                                <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualcloudiness.html">
+                                <img id="vcloudinesslanding" src="assets/Fig3.png" alt="Cloudiness Picture">
+                                </a>
+                            </div>
+                            <div class="col-xl-6 col-md-3 col-sm-3 col-3">
+                                <a href="https://darrensagucio.github.io/Web-Design-Challenge/visualwindspeed.html">
+                                <img id="vwindlanding" src="assets/Fig4.png" alt="Windspeed Picture">
+                                </a>
+                            </div>
                         </div>
                     </div>
-            </div>
-        </section>
+                </aside>
+        </div>
     </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

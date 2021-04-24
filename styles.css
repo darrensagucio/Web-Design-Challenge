@@ -162,6 +162,13 @@
   left: 118px;
 }
 
+img { 
+  border: 3px solid white; 
+} 
+img:hover { 
+  border: 3px solid black; 
+} 
+
 @media (max-width: 1200px){
   
   .jsummary {
